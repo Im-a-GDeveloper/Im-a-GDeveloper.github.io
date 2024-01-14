@@ -1,0 +1,58 @@
+---
+import Button from "../components/Button.astro"
+import NavBar from "../components/NavBar.astro"
+import "../styles/global.css"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+
+
+	</head>
+	<body>
+		<header>
+			<NavBar/>
+
+			<div class="img_container">
+				<img src="/Assets/Hero Image (Tablet and Mobile).jpg" alt="">
+			</div>
+		</header>
+		
+		<div class="information">
+			<h1>Explore the best camps on Earth</h1>
+
+			<p>YelpCamp is a curated list of the best camping spots ob Earth.
+				Unfiltered and unbiased reviews.
+			</p>
+
+			<div class="flex flex-row gap-0">
+				<div class="small_icon">
+					<img src="/Assets/Checkmark.svg" alt="">
+				</div>
+				<p>Add your own camp suggestions.</p>
+			</div>
+
+			<div class="flex flex-row gap-0">
+				<div class="small_icon">
+					<img src="Assets/Checkmark.svg" alt="">
+				</div>
+				<p>Leave reviews and experiencies.</p>
+			</div>
+
+			<div class="last flex flex-row gap-0">
+				<div class="small_icon">
+					<img src="/Assets/Checkmark.svg" alt="">
+				</div>	
+				<p>See locations for all camps.</p>
+			</div>
+
+			<Button text={"View Campaings"}/>
+		</div>
+		
+	</body>
+</html>
