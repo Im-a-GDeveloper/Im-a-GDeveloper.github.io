@@ -1,1 +1,0 @@
-# Im-a-GDeveloper.github.io
