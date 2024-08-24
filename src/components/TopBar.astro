@@ -1,0 +1,54 @@
+<div class="top_bar_container">
+
+    <div class="top_bar">
+        <div class="img_container">
+            <img src="Icons/search.svg" alt="">
+        </div>
+        <div class="img_container">
+            <img src="Icons/notification.svg" alt="">
+        </div>
+        <div class="img_container profile_picture">
+            <img src="Pictures/ProfilePictures/profile_picture.jpeg" alt="">
+        </div>
+    </div>    
+</div>
+
+
+
+<style>
+
+    .top_bar_container{
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+        background-color: white;
+    }
+    .top_bar{
+        padding: 14px 20px 14px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 30px;
+        align-items: center;
+        box-shadow:
+            0px 0.1px 5.3px rgba(0, 0, 0, 0.028),
+            0px 0.4px 17.9px rgba(0, 0, 0, 0.042),
+            0px 2px 80px rgba(0, 0, 0, 0.07)
+    }
+    .img_container{
+        width: 30px;
+    }
+
+    .img_container img{
+        width: 100%;
+    }
+
+    .profile_picture{
+        width: 40px;
+    }
+    .profile_picture img{
+        border-radius: 50px;
+    }
+
+</style>

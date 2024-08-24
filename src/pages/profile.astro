@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPreview from "../components/BlogPreview.astro"
+
+
+---
+
+
+<BaseLayout>
+    
+    <div class="profile_main_container">
+        <div class="profile_information_container">
+            <div class="profile_information inner-container">
+                <p class="big-text mb-4">
+                    AlguienRandomXD
+                </p>
+
+                <p class="user_description normal-text mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam</p>
+                
+                <div class="user_stats flex gap-2">
+                    <div class="flex gap-1">
+                        <p class="exalted-text">Seguidores</p>
+                        <p>40</p>
+                    </div>
+
+                    <div class="flex gap-1">
+                        <p class="exalted-text">Publicaciones</p>
+                        <p>100</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+    <div class="user_posts">
+        <BlogPreview/>
+    </div>
+
+</BaseLayout>
+
+
+
+<style>
+    .profile_information_container{
+        border-bottom: 1px solid #D6D6D6;
+    }
+
+    .user_description{
+        font-size: 14px;
+    }
+    
+</style>

@@ -1,0 +1,47 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+import BlogPreview from "../components/BlogPreview.astro"
+
+
+// const response = await fetch('http://localhost:5280/Post/GetPosts/0');
+// const data = await response.json();
+// const show = data.data[0]
+
+
+
+---
+
+
+<MainLayout>
+
+	<div class="blogs">	
+		<BlogPreview/>
+		<BlogPreview/>
+		<BlogPreview/>
+		<BlogPreview/>
+		<BlogPreview/>
+		<BlogPreview/>
+		<BlogPreview/>	
+		<BlogPreview/>
+
+		<!-- <p>{show.title}</p> -->
+	</div>
+
+</MainLayout>
+
+
+<style>
+	/* div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 200px;
+	} */
+
+	.blogs{
+		padding-top: 68px;
+	}
+	
+</style>
+
+
